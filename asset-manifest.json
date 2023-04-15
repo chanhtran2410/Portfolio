@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.71ea90c8.css",
-    "main.js": "/static/js/main.5110f75a.js",
-    "static/media/ava2.jpg": "/static/media/ava2.c58f375526b21bb69d95.jpg",
+    "main.css": "/static/css/main.d39eb8e1.css",
+    "main.js": "/static/js/main.48ddc37f.js",
     "static/media/ledis.png": "/static/media/ledis.42bde38250c737eea7e3.png",
     "static/media/petapp.png": "/static/media/petapp.a9ea65c68ebdb7d89071.png",
+    "static/media/ava2.png": "/static/media/ava2.967a5be672986abc4cfd.png",
     "static/media/ocular.png": "/static/media/ocular.ba029838e8406812a249.png",
     "static/media/minisearch.png": "/static/media/minisearch.def59aea9b96ed4e047f.png",
     "static/media/footballreport.png": "/static/media/footballreport.a5cbd2e44a5f081513e6.png",
@@ -21,11 +21,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/mongodb.svg": "/static/media/mongodb.fd82554bd307566edfca0c32271a894e.svg",
     "index.html": "/index.html",
-    "main.71ea90c8.css.map": "/static/css/main.71ea90c8.css.map",
-    "main.5110f75a.js.map": "/static/js/main.5110f75a.js.map"
+    "main.d39eb8e1.css.map": "/static/css/main.d39eb8e1.css.map",
+    "main.48ddc37f.js.map": "/static/js/main.48ddc37f.js.map"
   },
   "entrypoints": [
-    "static/css/main.71ea90c8.css",
-    "static/js/main.5110f75a.js"
+    "static/css/main.d39eb8e1.css",
+    "static/js/main.48ddc37f.js"
   ]
 }
