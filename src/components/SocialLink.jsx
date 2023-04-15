@@ -11,7 +11,7 @@ const SocialLink = () => {
                     LinkedIn <FaLinkedin size ={30}/>
                 </>
             ),
-            href : 'https://www.linkedin.com/in/tri-luong-80a05a234/',
+            href : 'https://www.linkedin.com/in/ch%C3%A1nh-tr%E1%BA%A7n-l%C3%AA-trung-3b629921b/',
             style : 'rounded-tr-md'
         },
         {
@@ -21,7 +21,7 @@ const SocialLink = () => {
                     Github <FaGithub size ={30}/>
                 </>
             ),
-            href : 'https://github.com/dehjaza2001'
+            href : 'https://github.com/chanhtran2410/'
         },
         {
             id: 3,
@@ -30,7 +30,7 @@ const SocialLink = () => {
                     Email <HiOutlineMail size ={30}/>
                 </>
             ),
-            href : 'mailto:kevinluong108@gmail.com'
+            href : 'mailto:chanh.tran2410@hcmut.edu.vn'
         },
         {
             id: 4,

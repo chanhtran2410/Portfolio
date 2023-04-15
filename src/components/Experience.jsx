@@ -16,33 +16,33 @@ const Experience = () => {
     const techs = [
         {
             id: 1 ,
-            src : javascript, 
-            color : "shadow-yellow-500",
-            name : "JavaScript"
-        },
-        {
-            id: 2 ,
-            src : python, 
-            color : "shadow-yellow-500",
-            name : "Python"
-        },
-        {
-            id: 3 ,
-            src : cpp, 
-            color : "shadow-blue-500",
-            name : "C++"
-        },
-        {
-            id: 4 ,
             src : html, 
             color : "shadow-orange-500",
             name : "HTML"
         },
         {
-            id: 5 ,
+            id: 2 ,
             src : css, 
             color : "shadow-blue-500",
             name : "CSS"
+        },
+        {
+            id: 3 ,
+            src : javascript, 
+            color : "shadow-yellow-500",
+            name : "JavaScript"
+        },
+        {
+            id: 4 ,
+            src : cpp, 
+            color : "shadow-blue-500",
+            name : "C++"
+        },
+        {
+            id: 5 ,
+            src : python, 
+            color : "shadow-yellow-500",
+            name : "Python"
         },
         {
             id: 6 ,
@@ -52,9 +52,9 @@ const Experience = () => {
         },
         {
             id: 7 ,
-            src : nextjs, 
-            color : "shadow-white",
-            name : "Next JS"
+            src : node, 
+            color : "shadow-green-400",
+            name : "Node JS"
         },
         {
             id: 8 ,
@@ -64,18 +64,6 @@ const Experience = () => {
         },
         {
             id: 9 ,
-            src : node, 
-            color : "shadow-green-400",
-            name : "Node JS"
-        },
-        {
-            id: 10 ,
-            src : tailwind, 
-            color : "shadow-sky-400",
-            name : "Tailwind"
-        },
-        {
-            id: 11 ,
             src : github, 
             color : "shadow-gray-400",
             name : "Github"
