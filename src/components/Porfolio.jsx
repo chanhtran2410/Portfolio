@@ -9,46 +9,47 @@ import dMart from  "../assets/portfolio/dMart.png";
 const Porfolio = () => {
     const projects =[
         {
-            id : 6,
-            src : dMart ,
-            code : "https://github.com/NguyenTrongTin1107/dMart_fe",
-            demo: "https://dmart-taupe.vercel.app/" ,
-            report: false,
-        },
-        {
-            id : 1,
-            src : petapp,
-            demo : "https://drive.google.com/file/d/13KuDfb5GQWSz4xxRu3nj_eQ-x0y3wBp3/view?usp=sharing" ,
-            code : "https://github.com/dehjaza2001/FinalProject_MobileApplication-1",
+            id : 4,
+            name: 'SMART FARM',
+            src : ocular,
+            code : "https://github.com/ShinyKiwis/smart-farm",
             report : false
         },
         {
             id : 2,
+            name: 'ONSITE ORDERING APP',
             src : ledis,
-            demo : "https://dehjaza2001.github.io/LEDIS-DEMO/",
-            code : "https://github.com/dehjaza2001/Ledis2" ,
+            code : "https://github.com/chanhtran2410/MeHungry_FE" ,
             report : false,
         },
         {
+            id : 6,
+            name: 'WASTE MANAGING SYSTEM',
+            src : dMart ,
+            code : "https://github.com/chanhtran2410/SE-Capstone-Project",
+            report: false,
+        },
+        {
             id : 3,
+            name: 'FAKENEWS LABELING',
             src : minisearch,
             demo : "",
-            code : "https://github.com/dehjaza2001/Project_CS163",
+            code : "https://github.com/chanhtran2410/HCMUT_Programing_Integration_Project",
             report : false
         },
         {
-            id : 4,
-            src : ocular,
-            code : "",
-            demo : "https://drive.google.com/file/d/1uEijQJfslN2Qeu5Xa-TM4lLFNH6KR1Pm/view?usp=sharing",
-            report : true
+            id : 1,
+            name: 'CHAT APP',
+            src : petapp,
+            code : "https://github.com/chanhtran2410/HCMUT_ComputerNetwork_Assignment",
+            report : false
         },
         {
             id : 5,
+            name: 'HOTEL MANAGING SYSTEM',
             src : footballreport,
-            code : "",
-            demo : "https://drive.google.com/file/d/1IOsXVRRzyoIxIc41M619dzdg6-bdCwKD/view?usp=sharing",
-            report : true
+            code : "https://github.com/chanhtran2410/HCMUT_Database_Assignment",
+            report : false
         },
     ]
   return (
@@ -60,9 +61,9 @@ const Porfolio = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                {projects.map(({id,src,demo,code,report})=>(
+                {projects.map(({id,name,src,demo,code,report})=>(
                     <div id ={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img  src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
+                    <img  src={src} alt="" className='rounded-md duration-200 hover:scale-105' style={{width:'100%',height:'12em'}}/>
                     {report ? (
                     <div className='flex items-center justify-center'>
                     <a href={demo}>
@@ -72,6 +73,7 @@ const Porfolio = () => {
                     </div>
                     ) : (
                     <div className='flex items-center justify-center'>
+                    <h6 style={{textAlign:'center'}}>{name}</h6>
                     <a href={code} >
                     <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
                     </a>                           
